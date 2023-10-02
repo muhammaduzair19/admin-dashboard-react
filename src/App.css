@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainSection {
+    display: flex;
+}
+
+
+.rightSection {
+    width: calc(100% - 250px);
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: white;
+    /* background-color: #0E1A30; */
+    /* color: #0E1A30; */
+}
+
+.rightInnerSection{
+    width: 100%;
+    height: calc(100vh - 60px);
+}

@@ -1,0 +1,22 @@
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 99;
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.584);
+}
+
+.menuIcon {
+    font-size: large;
+
+}
+
+.humburger {
+    background-color: transparent;
+    border: none;
+    color: black;
+}

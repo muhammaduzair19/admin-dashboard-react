@@ -1,0 +1,15 @@
+#users {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.userHeading{
+    text-align: center;
+}
+
+
+.MuiDataGrid-toolbarContainer {
+    flex-direction: row-reverse;
+}

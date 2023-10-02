@@ -1,0 +1,151 @@
+#single {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.view {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: start;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    padding: 10px;
+}
+
+.info {
+
+    display: flex;
+}
+
+.topInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#username {
+    text-transform: lowercase;
+}
+
+.update {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 127, 127);
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.item {
+    display: flex;
+    gap: 10px;
+}
+
+.itemTitle {
+    font-weight: 600;
+}
+
+hr {
+    margin: 20px 0px;
+}
+
+.activities {
+    width: 50%;
+
+}
+
+.displayPicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+}
+
+
+.activitiesHeading {
+    margin-bottom: 20px;
+}
+
+.activityList {
+    list-style-type: none;
+    position: relative;
+    padding-top: 50px;
+    background-color: pink;
+    width: 1px;
+
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: red;
+        transform: translateX(-50%);
+    }
+
+}
+
+.listContainer {
+    min-width: 480px;
+    padding: 15px;
+    background-color: rgba(255, 0, 0, 0.169);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.activityDesc {
+    margin-bottom: 5px;
+}
+
+.activityTime {
+    font-size: 12px;
+}
+
+.otherInfo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categories,
+.packages {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.categoryList {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.packageList {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
